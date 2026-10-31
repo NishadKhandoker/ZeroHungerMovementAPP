@@ -1,0 +1,15 @@
+D:\DotNet\ZeroHungerMovementApp\BLL\bin\Debug\net10.0\BLL.deps.json
+D:\DotNet\ZeroHungerMovementApp\BLL\bin\Debug\net10.0\BLL.dll
+D:\DotNet\ZeroHungerMovementApp\BLL\bin\Debug\net10.0\BLL.pdb
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\BLL.AssemblyInfoInputs.cache
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\BLL.AssemblyInfo.cs
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\BLL.csproj.CoreCompileInputs.cache
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\BLL.dll
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\refint\BLL.dll
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\BLL.pdb
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\ref\BLL.dll
+D:\DotNet\ZeroHungerMovementApp\BLL\bin\Debug\net10.0\DAL.dll
+D:\DotNet\ZeroHungerMovementApp\BLL\bin\Debug\net10.0\DAL.pdb
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\BLL.csproj.AssemblyReference.cache
+D:\DotNet\ZeroHungerMovementApp\BLL\obj\Debug\net10.0\BLL.csproj.Up2Date
