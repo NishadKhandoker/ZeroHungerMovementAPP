@@ -1,0 +1,488 @@
+[
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestController",
+    "Method": "assignEmployee",
+    "RelativePath": "api/CollectRequest/assignemployee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestController",
+    "Method": "create",
+    "RelativePath": "api/CollectRequest/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "r",
+        "Type": "BLL.Models.CollectRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestController",
+    "Method": "delete",
+    "RelativePath": "api/CollectRequest/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.CollectRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestController",
+    "Method": "getall",
+    "RelativePath": "api/CollectRequest/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestController",
+    "Method": "getbyid",
+    "RelativePath": "api/CollectRequest/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestController",
+    "Method": "update",
+    "RelativePath": "api/CollectRequest/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.CollectRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestFoodController",
+    "Method": "create",
+    "RelativePath": "api/CollectRequestFood/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "r",
+        "Type": "BLL.Models.CollectRequestFoodModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestFoodController",
+    "Method": "delete",
+    "RelativePath": "api/CollectRequestFood/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.CollectRequestFoodModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestFoodController",
+    "Method": "getall",
+    "RelativePath": "api/CollectRequestFood/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestFoodController",
+    "Method": "getbyid",
+    "RelativePath": "api/CollectRequestFood/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.CollectRequestFoodController",
+    "Method": "update",
+    "RelativePath": "api/CollectRequestFood/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.CollectRequestFoodModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.DistributionController",
+    "Method": "create",
+    "RelativePath": "api/Distribution/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "d",
+        "Type": "BLL.Models.DistributionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.DistributionController",
+    "Method": "delete",
+    "RelativePath": "api/Distribution/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.DistributionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.DistributionController",
+    "Method": "getall",
+    "RelativePath": "api/Distribution/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.DistributionController",
+    "Method": "getbyid",
+    "RelativePath": "api/Distribution/get/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.DistributionController",
+    "Method": "update",
+    "RelativePath": "api/Distribution/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.DistributionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.EmployeeController",
+    "Method": "create",
+    "RelativePath": "api/Employee/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "r",
+        "Type": "BLL.Models.EmployeeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.EmployeeController",
+    "Method": "delete",
+    "RelativePath": "api/Employee/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.EmployeeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.EmployeeController",
+    "Method": "getall",
+    "RelativePath": "api/Employee/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.EmployeeController",
+    "Method": "getbyid",
+    "RelativePath": "api/Employee/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.EmployeeController",
+    "Method": "update",
+    "RelativePath": "api/Employee/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.EmployeeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.FoodController",
+    "Method": "create",
+    "RelativePath": "api/Food/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "r",
+        "Type": "BLL.Models.FoodModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.FoodController",
+    "Method": "delete",
+    "RelativePath": "api/Food/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.FoodModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.FoodController",
+    "Method": "getall",
+    "RelativePath": "api/Food/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.FoodController",
+    "Method": "getbyid",
+    "RelativePath": "api/Food/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.FoodController",
+    "Method": "update",
+    "RelativePath": "api/Food/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.FoodModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.RestaurantController",
+    "Method": "create",
+    "RelativePath": "api/Restaurant/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "r",
+        "Type": "BLL.Models.RestaurantModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.RestaurantController",
+    "Method": "delete",
+    "RelativePath": "api/Restaurant/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.RestaurantModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.RestaurantController",
+    "Method": "getall",
+    "RelativePath": "api/Restaurant/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.RestaurantController",
+    "Method": "getbyid",
+    "RelativePath": "api/Restaurant/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.RestaurantController",
+    "Method": "update",
+    "RelativePath": "api/Restaurant/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "f",
+        "Type": "BLL.Models.RestaurantModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiAppLayer.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiAppLayer.WeatherForecast, ApiAppLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
